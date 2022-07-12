@@ -1,16 +1,32 @@
 # Flutter Login Products App
 
-A new Flutter project.
+App creada en flutter con login basico usando firebase
 
-## Getting Started
+## Comenzando
 
-This project is a starting point for a Flutter application.
+despues de clonar el proyecto debes de ejecutar el comando para descarga las dependencias o paquetes:
 
-A few resources to get you started if this is your first Flutter project:
+### 1. descargar paquetes o dependencias
+```
+flutter pub get
+```
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### 2. configurar las variables de entorno en el archivo '.env'
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Las variables de entorno requeridas para esta app que hace uso de firebase son las siguientes (tambien las puedes encontrar en el archivo de ejemplo .env.example): 
+```
+FIREBASE_TOKEN=
+FIREBASE_BASEURL=
+FIREBASE_DB_BASEURL=
+CLOUDINARY_URL=
+```
+
+una vez que tengas esas variables de entorno configuradas puede iniciar la app 
+
+### 3. iniciando la app
+
+para iniciar la app primero debes de ejecutar un emulador y luego seleccionarlo con flutter
+
+luego si usas Vscode puedes presionar la tecla `F5` ubicandote en un archivo `.dart`
+
+
